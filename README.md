@@ -7,6 +7,8 @@ Bienvenue dans Infiltration, un jeu en C++ avec SFML où vous incarnez un voleur
 Dans ce jeu, vous incarnez un voleur rusé qui doit éviter les gardes et utiliser son environnement pour atteindre et voler un objet précieux sans se faire attraper.
 Les gardes sont équipés d’intelligences artificielles avancées utilisant un Behavior Tree (BT), une Finite State Machine (FSM) et un Pathfinding efficace pour surveiller et traquer le joueur. 🛡️👀
 
+De plus, le jeu intègre un système de Ray Casting permettant de gérer la vision des gardes en fonction des obstacles présents sur la carte. Cela ajoute une couche de réalisme et de complexité au gameplay en définissant des champs de vision dynamiques. 🔦
+
 Développé en C++ avec SFML, ce projet met en avant des mécaniques d'intelligence artificielle avancée et de planification stratégique.
 
 🎮 FONCTIONNALITÉS
@@ -21,8 +23,8 @@ Développé en C++ avec SFML, ce projet met en avant des mécaniques d'intellige
 
 🕹 COMMANDES
 
-🔹 ZQSD : Déplacer le voleur ⬆️⬇️⬅️➡️
-🔹 Évitez les gardes et volez l’objet sans être repéré ! 💎
+🔹 ZQSD : Déplacer le voleur ⬆️⬇️⬅️➡️  
+🔹 Évitez les gardes et volez l’objet sans être repéré ! 💎  
 
 📂 CODE
 
